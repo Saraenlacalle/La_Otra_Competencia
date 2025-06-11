@@ -87,7 +87,7 @@ def procesar_todos_los_archivos(carpeta_raiz, salida_csv_final, duracion_segment
         print("⚠️ No se generaron datos. Revisa los archivos de entrada.")
 
 # === PARÁMETROS ===
-carpeta_audio = '/Users/jwhan/Documents/superwhisper/recordings'
-salida_csv_final = '/Users/jwhan/Desktop/Sara/textura_sonora.csv'
+carpeta_audio = 'Establezca la carpeta donde se encuentran los audíos de las secuencias audiovisuales'
+salida_csv_final = 'Establezca la carpeta y el nombre del archivo que se tendrá como resultado'
 
 procesar_todos_los_archivos(carpeta_audio, salida_csv_final)
