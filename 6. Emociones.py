@@ -2,8 +2,8 @@ import pandas as pd
 import ast
 
 # === 1. Cargar archivos ===
-df_textura = pd.read_csv("/Users/jwhan/Desktop/Sara/textura_sonora.csv")
-df_transcripciones = pd.read_csv("/Users/jwhan/Desktop/Sara/Transcripciones.csv")
+df_textura = pd.read_csv("incluya la direccion del archivo con los resultados de sonido")
+df_transcripciones = pd.read_csv("Incluya la direccion del archivo con los resultados de las transcripciones")
 
 # === 2. Corregir columna 'Tempo' (de string tipo "[120.0]" a float) ===
 def limpiar_tempo(valor):
@@ -86,4 +86,4 @@ for _, fila in df_transcripciones.iterrows():
 df_sonido_por_texto = pd.DataFrame(resultados)
 
 # === 9. (Opcional) Guardar a CSV ===
-df_sonido_por_texto.to_csv("/Users/jwhan/Desktop/Sara/analisis_texto_sonido_etiquetado.csv", index=False)
+df_sonido_por_texto.to_csv("Incluya direccion y nombre de archivo de salida de este proceso", index=False)
