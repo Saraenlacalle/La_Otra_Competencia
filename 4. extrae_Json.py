@@ -3,10 +3,10 @@ import json
 import csv
 
 # Ruta raíz que contiene las subcarpetas por caso (Claro, Win, Diario_As)
-carpeta_json = '/Users/jwhan/Documents/superwhisper/recordings'
+carpeta_json = 'dirección de carpeta con archivos Json resultantes de transcripción'
 
 # Archivo CSV de salida
-archivo_csv = '/Users/jwhan/Desktop/Sara/Transcripciones.csv'
+archivo_csv = 'Establezca la direccion y el nombre del archivo de salida'
 
 # Nuevos encabezados: caso, nombre_archivo, text, start, end
 encabezados = ['caso', 'nombre_archivo', 'text', 'start', 'end']
