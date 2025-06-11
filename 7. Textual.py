@@ -3,7 +3,7 @@ import spacy
 from textblob import TextBlob
 
 # === 1. Cargar el archivo CSV original ===
-df = pd.read_csv("/Users/jwhan/Desktop/Sara/analisis_texto_sonido_etiquetado.csv")
+df = pd.read_csv("Incluya dirección de archivo con procesamiento de texto y sonido (último crado proceso 6)")
 
 # === 2. Cargar modelo de spaCy en español ===
 nlp = spacy.load("es_core_news_sm")
@@ -54,5 +54,5 @@ df['Tiempo Verbal'] = df['Texto'].apply(detectar_tiempo)
 df['Tipo de Lenguaje'] = df['Texto'].apply(clasificar_lenguaje)
 
 # === 7. Guardar resultado ===
-df.to_csv("/Users/jwhan/Desktop/Sara/analisis_texto_sonido_etiquetado.csv", index=False)
+df.to_csv("direccion y n ombre de archivo del resultado de este proceso.", index=False)
 print("✅ Archivo enriquecido guardado como 'analisis_texto_sonido_enriquecido.csv'")
