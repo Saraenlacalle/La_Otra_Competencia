@@ -1,7 +1,7 @@
 import pandas as pd
 
 # === 1. Cargar archivo CSV ===
-df = pd.read_csv("/Users/jwhan/Desktop/Sara/analisis_texto_sonido_etiquetado.csv")
+df = pd.read_csv("dirección de archivo con todos los procesos anteriores integrados (resultado de paso 7)")
 
 # === 2. Diccionario de deportes basado en el corpus ===
 deportes_olimpicos = {
@@ -49,7 +49,7 @@ df['Deporte Mencionado'] = df['Texto'].apply(detectar_deporte)
 df['Género Deporte'] = df['Texto'].apply(detectar_genero_deporte)
 
 # === 7. Guardar archivo enriquecido ===
-df.to_csv('/Users/jwhan/Desktop/Sara/analisis_texto_sonido_etiquetado.csv', index=False)
+df.to_csv('Nombre de archivo y direccion de version en CSV', index=False)
 print("✅ Archivo guardado como 'analisis_texto_sonido_completo.csv'")
-df.to_excel("/Users/jwhan/Desktop/Sara/BaseDatos.xlsx", index=False)
+df.to_excel("Nombre de archivo y direccion de version en XLS", index=False)
 print("✅ También se guardó como 'BaseDatos.xlsx'")
