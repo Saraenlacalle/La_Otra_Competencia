@@ -23,5 +23,5 @@ def renombrar_archivos_y_generar_excel(carpeta, prefijo="archivo_"):
     print(f"Proceso completado. Archivo Excel generado en: {excel_path}")
 
 # Ruta de la carpeta a procesar (modificar según sea necesario)
-carpeta = "/Users/jwhan/Desktop/Sara/WAV/Diario_As"
+carpeta = "Incluir carpeta con archivos que requieren organización"
 renombrar_archivos_y_generar_excel(carpeta)
