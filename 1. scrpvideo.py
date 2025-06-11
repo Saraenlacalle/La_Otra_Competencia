@@ -1,7 +1,7 @@
 import yt_dlp
 
 # Nombre del archivo con las URLs
-archivo_urls = "/Users/jwhan/Workspace/Compensar/Tesis/URLS/LINKS-YOUTUBE-DIARIO-AS.txt"
+archivo_urls = "Incluir archivo txt con direcciónes de videos en YouTube"
 
 # Leer las URLs desde el archivo
 with open(archivo_urls, "r") as f:
