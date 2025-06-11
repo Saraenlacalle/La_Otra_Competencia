@@ -3,8 +3,8 @@ import subprocess
 from tqdm import tqdm
 
 # Definir las carpetas de entrada y salida
-carpeta_entrada = "/Users/jwhan/Workspace/Compensar/Tesis/videos/Diario_As"
-carpeta_salida = "/Users/jwhan/Workspace/Compensar/Tesis/WAV/Diario_As"
+carpeta_entrada = "Incluir carpeta con videos para procesamiento"
+carpeta_salida = "Incluir carpeta de salida de resultados"
 
 # Crear la carpeta de salida si no existe
 os.makedirs(carpeta_salida, exist_ok=True)
